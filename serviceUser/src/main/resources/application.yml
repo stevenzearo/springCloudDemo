@@ -1,0 +1,12 @@
+server:
+  port: 8762  # \u8868\u793A\u7684\u5F53\u524D\u8FD9\u4E2A\u5FAE\u670D\u52A1\u7684\u7AEF\u53E3
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ # Eureka Server\u5730\u5740 \u8868\u793A\u5C06\u5F53\u524D\u7684\u5FAE\u670D\u52A1\u6CE8\u518C\u5230\u54EA\u4E2AEureka Server\u6CE8\u518C\u4E2D\u5FC3
+  instance:
+    prefer-ip-address: true # \u8868\u793A\u5C06ip\u5730\u5740\u6CE8\u518C\u5230Eureka Server
+
+spring:
+  application:
+    name: eureka-microservice-users # \u5F53\u524D\u5E94\u7528\u7684\u540D\u79F0.\u7528\u4E8E\u6CE8\u518C\u5230Eureka Server \u4EE5\u540E\u7684\u670D\u52A1\u4E0E\u670D\u52A1\u4E4B\u95F4\u76F8\u4E92\u8C03\u7528\u4E00\u822C\u90FD\u662F\u6839\u636E\u8FD9\u4E2Aname
