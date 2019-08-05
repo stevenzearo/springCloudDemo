@@ -1,4 +1,4 @@
-package steve.spring.cloud.service.user;
+package steve.spring.cloud;
 
 /**
  * @Author steve
